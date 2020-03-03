@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="permissionModule_Dialog_OK">好的</string>
+  <string name="permissionModule_Dialog_cancel">取消</string>
+
+  <string name="plz_open_location_title">请开启位置权限</string>
+  <string name="plz_open_location_sure">去开启</string>
+  <string name="plz_open_location_content">您的位置未授权哦~ 为了防范欺诈风险，请进入系统设置，打开位置权限</string>
+
+  <string name="plz_open_perm_title">请开启权限</string>
+  <string name="plz_open_perm_sure">去开启</string>
+  <string name="plz_open_perm_cancel">取消</string>
+</resources>

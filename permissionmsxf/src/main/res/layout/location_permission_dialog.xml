@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    >
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:scaleType="fitXY"
+      android:src="@drawable/home_img_location"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#E7E8EB"
+      app:layout_constraintTop_toBottomOf="@+id/tv_permission_dialog_content"
+      >
+    <TextView
+        android:id="@+id/tv_permission_sure"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="#497BEC"
+        android:textSize="18sp"
+        tools:text="好的"
+        />
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/tv_permission_dialog_content"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:lineSpacingExtra="6dp"
+      android:paddingBottom="10dp"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:paddingTop="10dp"
+      android:textColor="#27314A"
+      android:textSize="14sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/tv_permission_dialog_title"
+      tools:text="@string/plz_open_location_content"
+      />
+
+  <TextView
+      android:id="@+id/tv_permission_dialog_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:layout_marginTop="8dp"
+      android:textColor="#27314A"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView2"
+      tools:text="请开启位置权限"
+      />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

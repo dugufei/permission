@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="permission_dialog" parent="@style/Theme.AppCompat.Dialog">
+    <item name="android:windowMinWidthMinor">85%</item>
+  </style>
+</resources>
