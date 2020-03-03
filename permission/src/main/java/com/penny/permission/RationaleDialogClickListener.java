@@ -1,4 +1,4 @@
-package com.msxf.permission;
+package com.penny.permission;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -7,7 +7,7 @@ import android.os.Build;
 import android.util.Log;
 import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
-import com.msxf.permission.helper.PermissionHelper;
+import com.penny.permission.helper.PermissionHelper;
 
 /**
  * Click listener for either {@link RationaleDialogFragment} or {@link

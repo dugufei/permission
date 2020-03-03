@@ -1,11 +1,11 @@
-package com.msxf.permission.helper;
+package com.penny.permission.helper;
 
 import android.annotation.SuppressLint;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentManager;
-import com.msxf.permission.PermissionRationaleBody;
-import com.msxf.permission.R;
-import com.msxf.permission.RationaleDialogFragmentCompat;
+import com.penny.permission.PermissionRationaleBody;
+import com.penny.permission.R;
+import com.penny.permission.RationaleDialogFragmentCompat;
 import java.util.ArrayList;
 
 /**

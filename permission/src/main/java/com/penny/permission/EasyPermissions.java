@@ -1,4 +1,4 @@
-package com.msxf.permission;
+package com.penny.permission;
 
 import android.Manifest;
 import android.app.Activity;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
-import com.msxf.permission.helper.PermissionHelper;
+import com.penny.permission.helper.PermissionHelper;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;

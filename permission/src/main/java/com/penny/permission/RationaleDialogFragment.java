@@ -1,4 +1,4 @@
-package com.msxf.permission;
+package com.penny.permission;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;

@@ -1,4 +1,4 @@
-package com.msxf.permission.helper;
+package com.penny.permission.helper;
 
 import android.annotation.SuppressLint;
 import android.app.Fragment;
@@ -7,8 +7,8 @@ import android.content.Context;
 import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
-import com.msxf.permission.PermissionRationaleBody;
-import com.msxf.permission.Utils;
+import com.penny.permission.PermissionRationaleBody;
+import com.penny.permission.Utils;
 import java.util.List;
 
 /**

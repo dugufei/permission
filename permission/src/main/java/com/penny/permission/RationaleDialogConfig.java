@@ -1,4 +1,4 @@
-package com.msxf.permission;
+package com.penny.permission;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
-import com.msxf.permission.UI.PermissionBaseDialog;
+import com.penny.permission.UI.PermissionBaseDialog;
 import java.util.ArrayList;
 
 /**

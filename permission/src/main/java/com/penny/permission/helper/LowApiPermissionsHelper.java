@@ -1,9 +1,9 @@
-package com.msxf.permission.helper;
+package com.penny.permission.helper;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import androidx.annotation.NonNull;
-import com.msxf.permission.PermissionRationaleBody;
+import com.penny.permission.PermissionRationaleBody;
 import java.util.ArrayList;
 import java.util.List;
 

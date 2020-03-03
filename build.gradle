@@ -20,10 +20,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'http://nexus.msxf.local/content/groups/public' }
-        maven { url 'http://nexus.msxf.local/content/repositories/releases/' }// faceX
-        maven { url 'http://nexus.msxf.local/content/repositories/snapshots/' } // faceX
-        
     }
 }
 

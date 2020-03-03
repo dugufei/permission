@@ -8,10 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.core.app.ActivityCompat;
-import com.msxf.permission.AfterAllPermGranted;
-import com.msxf.permission.AfterNecessaryPermGranted;
-import com.msxf.permission.EasyPermissions;
-import com.msxf.permission.PermissionRationaleBody;
+import com.penny.permission.AfterAllPermGranted;
+import com.penny.permission.AfterNecessaryPermGranted;
+import com.penny.permission.EasyPermissions;
+import com.penny.permission.PermissionRationaleBody;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback{

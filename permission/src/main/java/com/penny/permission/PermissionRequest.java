@@ -1,4 +1,4 @@
-package com.msxf.permission;
+package com.penny.permission;
 
 import java.util.ArrayList;
 

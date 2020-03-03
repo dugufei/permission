@@ -1,11 +1,11 @@
-package com.msxf.permission.helper;
+package com.penny.permission.helper;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import com.msxf.permission.PermissionRationaleBody;
-import com.msxf.permission.Utils;
+import com.penny.permission.PermissionRationaleBody;
+import com.penny.permission.Utils;
 import java.util.List;
 
 /**
